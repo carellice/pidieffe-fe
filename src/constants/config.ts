@@ -1,6 +1,6 @@
 export const APP_NAME = 'PIDIEFFE';
 
-export const APP_WEBSITE = 'https://pidieffe.app';
+export const APP_WEBSITE = 'https://pidieffe.netlify.app';
 
 export const THUMBNAIL_SCALE = 0.3;
 
