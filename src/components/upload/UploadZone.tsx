@@ -2,7 +2,7 @@ import { useState, useCallback, useRef } from 'react';
 import { usePdfLoader } from '../../hooks/usePdfLoader';
 import { useDocumentContext } from '../../hooks/useDocumentContext';
 import { LoadingSpinner } from '../common/LoadingSpinner';
-import { ACCEPTED_FILE_TYPES, APP_WEBSITE } from '../../constants/config';
+import { ACCEPTED_FILE_TYPES } from '../../constants/config';
 
 export function UploadZone() {
   const { loadPdf } = usePdfLoader();
